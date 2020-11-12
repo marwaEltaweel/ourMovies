@@ -1,0 +1,16 @@
+@import '../../styles.scss';
+
+.footer-brd
+{
+    border-top: 1px solid $main1Color;
+    height: 15%;
+    color: $main1Color;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-brd i
+{
+    color: $main1Color;
+}

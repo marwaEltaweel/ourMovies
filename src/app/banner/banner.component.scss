@@ -1,0 +1,61 @@
+@import '../../styles.scss';
+
+
+.carousel-indicators li 
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $main2color !important;
+}
+.slide img
+{
+    height: 100vh;
+}
+.carousel-caption 
+{
+    width: 30%;
+    right: 15%;
+    bottom: 20%;
+    left: 10%;
+    color:$main2color;
+    text-align: left;
+    background-color: $bgNavTrans;
+    padding: 10px;
+}
+.carousel-btn
+{
+    position: absolute;
+    width: 30%;
+    right: 15%;
+    bottom: 13%;
+    left: 10%;
+    color:$main2color;
+    text-align: left;
+    padding: 0px;
+}
+.btn-one
+{
+    width: 58%;
+    background-color: $main1Color;
+    color: $main2color;
+}
+.btn-one:hover
+{
+    background-color: $main1Color-darker;
+    color: $main2color-lighter;
+}
+.btn-two
+{
+    width: 40%;
+    background-color: transparent;
+    color: $main2color;
+    border: 1px solid $main2color;
+}
+.btn-two:hover
+{
+    width: 40%;
+    background-color: $main2color-lighter;
+    color: $main1Color-darker;
+    border: 1px solid $main2color;
+}

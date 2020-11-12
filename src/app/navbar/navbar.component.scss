@@ -1,0 +1,52 @@
+
+
+@import '../../styles.scss';
+
+
+.navbar
+{
+    padding: 2rem 1rem !important;
+    background-color: $bgNavTrans !important;
+}
+// .navbar-toggler i 
+// {
+//     color: $main2color !important;
+// }
+.logoFonts
+{
+    font-family: 'Architects Daughter', cursive;
+}
+.navbar a
+{
+    color: $main1Color !important;
+}
+.nav-item a
+{
+    color: $main2color !important;
+}
+.logo-pos
+{
+    position: relative;
+}
+.o-size
+{
+    font-size: 7em;
+    letter-spacing:0em;
+    position: absolute;
+    top: -0.75em;
+}
+.ur-size
+{
+    font-size:2em ;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 2px;
+    left: 2.2em;   
+}
+.movie-pos
+{
+    color: $main2color;
+    position: absolute;
+    top: -0.5em;
+    left: 0.9em;
+}

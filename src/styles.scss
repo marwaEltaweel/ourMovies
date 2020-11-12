@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+$mainBgColor: #081b27;
+$bgNavTrans:#081b278f;
+$main1Color:#ff9900;
+$main1Color-darker:#d17d00;
+$main2color:#ffff99;
+$main2color-lighter:#fbfba2;
+
+
+body
+{
+    background-color: $mainBgColor !important;
+}
